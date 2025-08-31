@@ -40,4 +40,4 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 # Ignore only admin.ts in the firebase folder
-firebase/admin.ts
+firebase/client.ts
