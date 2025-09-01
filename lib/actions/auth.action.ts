@@ -45,7 +45,7 @@ export async function signUp(params: SignUpParams) {
 
     // save user to db
     await db.collection("users").doc(uid).set({
-      name,
+      username,
       email,
       // profileURL,
       // resumeURL,
